@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./splide-2.4.21/dist/css/splide.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Segmentify Project</title>
+</head>
+<body>
+    <h1 id="_header">Sizin için seçtiklerimiz</h1>
+    <div class="parent">
+        <div class="categories">
+            <ul id="cate-list" class="cateList">
+                <li class="active" >Size Özel</li>
+                <li>Tamir, Tadilat Gereçleri</li>
+                <li>Mobilya</li>
+                <li>Sağlık, Medikal</li>
+                <li>Diziüstü Bilgisayar</li>
+                <li>Isıtma Soğutma Sistemi</li>
+            </ul>
+        </div>
+        <div class="splide cont">
+            <div class="splide__track">
+                <div class="splide__list" id="root"></div>
+            </div>
+        </div>
+    </div>
+    <div id="popup" class="popup-cont">
+        <span class="tick">&#10003;</span>
+        <span class="word">Ürün sepete eklendi<br><span>Sepete Git</span></span>
+        <span id="closeMark" class="mark">&#10005;</span>
+    </div>
+    <script src="./js/jQuery.js"></script>
+    <script src="./splide-2.4.21/dist/js/splide.min.js"></script>
+    <script src="./js/functions.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
